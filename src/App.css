@@ -1,0 +1,53 @@
+body {
+  background: #091833;
+  max-height: auto;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#drum-machine {
+  border-radius: 3px;
+  height: 500px;
+  width: 500px;
+}
+.btn-no-outline:focus {
+  outline: none;
+}
+/***Gradient Bg pad color***/
+.bg-gradient-blue {
+  background: radial-gradient(circle, #3dddff, #18a5ff);
+}
+.bg-gradient-pink{
+  background: radial-gradient(circle, #fec0ff, #f177ff);
+}
+.bg-gradient-violet{
+  background: radial-gradient(circle, #fc75fe, #e02bf3);
+}
+.bg-gradient-yellow{
+  background: radial-gradient(circle, #ffec4d, #e9bd13);
+}
+.bg-gradient-green{
+  background: radial-gradient(circle, #44f361, #02c126);
+}
+/***Glow***/
+.glow-blue {
+  box-shadow: 0 0 2px #18a5ff, 0 0 10px #18a5ff, 0 0 15px #18a5ff;
+}
+.glow-pink {
+  box-shadow: 0 0 2px #f177ff, 0 0 10px #f177ff, 0 0 15px #f177ff;
+}
+.glow-violet {
+  box-shadow: 0 0 2px #e02bf3, 0 0 10px #e02bf3, 0 0 15px #e02bf3;
+}
+.glow-yellow {
+  box-shadow: 0 0 2px #e9bd13, 0 0 10px #e9bd13, 0 0 15px #e9bd13;
+}
+.glow-green {
+  box-shadow: 0 0 2px #02c126, 0 0 10px #02c126, 0 0 15px #02c126;
+}
+.pressed {
+  transform: scale(0.95);
+  transition: transform 200ms;
+}
